@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Search</title>
+    </head>
+    <body>
+    	<style>
+    		#div-1
+    		{
+    			margin-top: 300px;
+    			margin-left: 100px;
+    		}
+    		#div-2
+    		{
+    			margin-top: 10px;
+    		}
+    		#txt-1
+    		{
+    			border-radius: 1rem;
+    			border: none;
+    			border-style: ridge;
+    			width: 500px;
+    			height: 40px;
+    			margin: 0 auto;
 
+    		}
+    		#img-1
+    		{
+    			margin-top: -300px;
+    			margin-right: -430px;
+    			width: 360px;
+    			height: 150px;
+    		}
+    		#go
+    		{
+    			border: ridge;
+    			margin-right: 25px;
+    		}
+    		#luck
+    		{
+    			
+    			border: ridge;
+    			margin-left: 25px;
+    		}
+    		#div-3
+    		{
+    			margin-bottom: 350px;
+    			margin-left: 1300px;
+    		}
+
+    	</style>
+    	<div id="div-3">
+    		<a href="google advanced.html" style="font-size: 13px; margin-left: -90px;">Advanced Search</a>
+    		<a href="google images.html" style="font-size: 13px; margin-left: 30px; ">Images</a>
+    	</div>
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    	<div class=" h-100 d-flex justify-content-center align-items-center " id="div-1">
+    		<img src="google.png" id="img-1">
+        <form action="https://google.com/search">
+            <input type="text" name="q" id="txt-1">
+            <div  class=" h-100 d-flex justify-content-center align-items-center " id="div-2">
+               <form>
+            	   <input type="submit" name="btnK" value="Google Search" id="go">
+                   <input type="submit" name="btnI" value="'I'm feeling lucky" id="luck">
+               </form>	
+            </div>
+        </form>
+    </div>
+    </body>
+</html>
