@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Google Advanced Search
+	</title>
+</head>
+<body>
+	<style>
+		#div-1
+		{
+			background-color: 	rgb(232,232,232);
+			height: 70px;
+		}
+		#div-2
+		{
+			border-style: ridge;
+			border-left: none;
+			border-right: none;
+			border-top: none;
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+		#div-3
+		{
+			margin-left: 30px;
+		}
+		.in
+		{
+			border-style: groove;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			border:ridge;
+		}
+		label
+		{
+			font-family: fantasy;
+			font-weight: 3pt;
+			color:rgb(1,1,1);
+			margin-right: -15px;
+		}
+			
+			</style>
+		
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+ <div id="div-1">
+ 	<img src="google.png" style="width: 105px;height: 55px; margin: 10px; margin-bottom: -50px;"><br>
+ 	<a href="index.html" style="margin-left: 1350px;">Google Search</a>
+ 	<a href="google_images.html" style="margin-left: 10px;">Images</a>
+ </div>
+ <div id="div-2">
+ 	<p style="font-weight: 15pt; font-size: 15pt; color:  #e60000; margin: 18px; margin-left: 20px;">Advanced Search</p>
+ </div>
+ <div class="row">
+  <pre style="font-style:oblique">    Find pages with...                                                                                     </pre> 
+  	<pre>To do this in the search box.</pre>
+ </div>
+ <form action="https://google.com/search" name="f">
+ <div>
+ 	<label style="margin-left: 10px;">all these words:   </label>
+ 	<input type="textinput" name="as_q" style="width: 600px; margin-left: 95px;" class="in">
+ 	<label style="margin-left: 10px;">Type the important words: tri-colour rat terrier</label><br>
+ 	<label style="margin-left: 10px;">this exact word or phrase:</label>
+ 	<input type="textinput" name="as_epq" style="width: 600px; margin-left: 22px;" class="in">
+ 	<label>Put exact words in quotes: "rat terrier"</label><br>
+ 	<label style="margin-left: 10px;">any of these words:</label>
+ 	<input type="textinput" name="as_oq" style="width: 600px; margin-left: 65px;" class="in">
+    <label>Type OR between all the words you want: miniature OR standard</label><br>
+    <label style="margin-left: 10px;">none of these words:</label>
+ 	<input type="textinput" name="as_eq" style="width: 600px; margin-left: 54px;" class="in">
+    <label>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</label><br>
+    <label style="margin-left: 10px;">numbers ranging from:</label>
+ 	<input type="textinput" name="as_nlo" style="width: 300px; margin-left: 40px;" class="in">
+    <label style="margin-left: 10px;">to</label>
+    <input type="textinput" name="as_nhi" style="width: 241px; margin-left: 18px;" class="in">
+    <label style="margin-left: 10px; font-size: 10pt;">Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011"</label>
+    <input type="submit" value="advanced search" style="margin-left: 600px; margin-top: 15px; margin-bottom: 15px; background-color:rgb(0, 128, 255);font-weight: 15pt; font-family: serif; color:rgb(255, 255, 255); border-style: ridge; border:ridge;">
+ </div>
+</form>
+</body>
+</html>
